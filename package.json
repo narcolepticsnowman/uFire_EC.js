@@ -1,0 +1,25 @@
+{
+  "name": "ufire_ec.js",
+  "version": "0.0.1",
+  "description": "unofficial js impl for the uFire EC board",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narcolepticsnowman/uFire_EC.js.git"
+  },
+  "keywords": [
+    "ufire",
+    "probe",
+    "ec"
+  ],
+  "author": "narcolepticsnowman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narcolepticsnowman/uFire_EC.js/issues"
+  },
+  "homepage": "https://github.com/narcolepticsnowman/uFire_EC.js#readme",
+  "dependencies": {
+    "i2c-bus": "^5.2.1",
+    "python-struct": "^1.1.3"
+  }
+}
