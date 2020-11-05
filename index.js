@@ -1,1 +1,1 @@
-module.exports = { defaultAddress: require('./src/constants.js').EC_SALINITY, uFire_ISE: require( 'src/uFire_EC.js' ), uFire_PH: require( './src/uFire_EC' ) }
+module.exports = { defaultAddress: require('./src/constants.js').EC_SALINITY, uFire_ISE: require( 'src/uFire_EC.js' ), uFire_EC: require( './src/uFire_EC' ) }
