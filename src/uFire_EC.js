@@ -319,7 +319,8 @@ module.exports = class uFire_EC {
         digits -= this.magnitude( x )
         if( digits < 0 ) digits = 0
         if( digits > 100 ) digits = 100
-        return x.toFixed( Math.trunc( digits ) )
+        if(!isFinite ) return x
+        return parseFloat(x).toFixed( Math.trunc( digits ) )
     }
 
     toF( c ) {
