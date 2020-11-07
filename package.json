@@ -1,6 +1,6 @@
 {
   "name": "ufire_ec.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "unofficial js impl for the uFire EC board",
   "main": "index.js",
   "repository": {

@@ -40,7 +40,7 @@ module.exports = class uFire_EC {
     }
 
     async measure() {
-        await this.sendCommand( c.EC_MEASURE_EC )
+        await this.sendCommand( C.EC_MEASURE_EC )
         if( this.blocking ) {
             await sleep( C.EC_EC_MEASUREMENT_TIME / 1000.0 )
             await this.updateRegisters()
@@ -299,7 +299,7 @@ module.exports = class uFire_EC {
     }
 
     async writeByte( register, value ) {
-        this.i2c.writeByteSync( register, value )
+        this.i2c.writeByteSync( this.address, register, value )
         await sleep( 10 )
     }
 
